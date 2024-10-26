@@ -1,0 +1,303 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* header section start */
+
+nav{
+    background-color: white;
+}
+.container-header .site-icon i{
+    color: black;
+    padding: 0 5px;
+    font-size: 18px;
+}
+
+
+nav .container-header{
+    display: flex;
+    justify-content: space-between;
+    height:70px;
+    align-items: center;
+    width:90%;
+    margin: auto;
+}
+
+.main-menu ul{
+    display: flex;
+}
+
+.main-menu ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.main-menu ul li{
+    list-style: none;
+    padding: 10px 30px;
+    font-size: 18px;
+    transition: all 2s;
+}
+
+.container-header .site-logo h2{
+    font-size:36px;
+    font-weight: bold;
+    color: #4FA667;
+}
+
+.main-menu ul li:hover{
+background-color: #4FA667;
+border-radius: 20px;
+}
+
+.main-menu ul li a:hover{
+    color:white;
+}
+
+.container-header .site-logo h2:hover{
+  cursor: pointer;
+}
+
+/* header section end */
+
+/* Hero section start  */
+
+.container-2nd{
+    background-color: #EFEFEF;
+}
+
+.container-2nd .hero-section{
+    width: 80%;
+    margin: auto;
+    height: 600px;
+    align-items: center;
+}
+
+.container-2nd .hero-section{
+    display: flex;
+    
+}
+
+.hero-para{
+    display: block;
+}
+
+.hero-para h1{
+    color: #4FA667;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.hero-para h1 span {
+    font-weight: 200;
+}
+
+.hero-para h3{
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.hero-para p{
+    font-size: 22px;
+}
+
+/* Hero Section End */
+
+
+/* Categories start */
+
+.container-categories{
+    height: 600px;
+}
+
+.categories-headline{
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.categories-headline h2{
+    font-weight:lighter;
+    font-size: 36px;
+}
+
+
+.categories-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    column-gap: 30px;  
+    width: 80%; 
+    margin: auto;
+    align-items: center;
+}
+
+.categories-box .box {
+    text-align: center;
+    align-items: center;
+}
+
+
+.box h2{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.box button{
+    background-color: #4FA667;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.other {
+    margin-top: 90px;
+}
+
+.box button{
+    margin-top: 10px;
+}
+
+/* categories end */
+
+/* product start  */
+
+.container-Product{
+    height: 900px;
+    background-color: #EFEFEF;
+    align-content: center;
+    
+}
+
+.product-headline{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.product-headline h2{
+    font-weight:lighter;
+    font-size: 36px;
+}
+
+
+.product-fox{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    width: 80%; 
+    margin: auto;
+}
+
+.light img{
+    background-color: #525566;
+    padding: 50px;
+    
+}
+
+
+.man-watch img{
+    background-color:#E4E5E7;
+    padding: 50px;
+    
+}
+
+.camera img{
+    background-color:#C8C3C9;
+    padding: 50px;
+    
+}
+
+.div-para {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.div-icon i{
+    color: rgb(99, 99, 18);
+    margin: 10px 0;
+}
+
+.div-price{
+    font-weight: 200;
+    margin-right: 20px;
+    margin: 10px 0;
+    margin-right: 31%;
+}
+
+.fox h3{
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.fox p{
+    text-align: justify;
+    font-size: 16px;
+    margin-right: 31%;
+}
+
+.fox h5{
+    font-size: 18px;
+    font-weight:200;
+    margin-top: 10px;
+}
+
+/* product end */
+
+/* footer start  */
+
+footer{
+    background-color: #1D2331;
+    height: 300px;
+    align-content: center;
+}
+
+.container-footer{
+    width: 80%;
+    display: flex;
+    justify-content:space-between;
+    margin: auto;
+    
+}
+
+.company h2 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.company p{
+    color: white;
+    font-size: 16px;
+}
+
+
+.company ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.company ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.company div a i {
+    color: white;
+    font-size: 16px;
+}
+
+.company div span {
+    color: white;
+    font-size: 16px;
+}
+
+.company div{
+    margin-bottom: 10px;
+}
+
+.company div a{
+    text-decoration: none;
+}
