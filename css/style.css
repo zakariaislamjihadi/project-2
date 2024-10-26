@@ -7,6 +7,23 @@
 
 /* header section start */
 
+label i {
+    color: black;
+    font-size: 24px;
+}
+
+.main-menu{
+    display: flex;
+}
+
+.main-menu label{
+    display: none;
+}
+
+.container-header input{
+    display: none;
+}
+
 nav{
     background-color: white;
 }
@@ -300,4 +317,28 @@ footer{
 
 .company div a{
     text-decoration: none;
+}
+
+@media screen and (max-width:1000px){
+    
+    /* header section start  */
+
+.main-menu ul {
+    flex-direction: column;
+    position: fixed; 
+    top: 80px;
+    right: -100%;
+    transition: all 0.5ms;
+}
+
+.main-menu label{
+    display: block;
+}
+
+
+.container-header input:checked ~ .main-menu ul{
+    right: 50%;
+}
+
+
 }
